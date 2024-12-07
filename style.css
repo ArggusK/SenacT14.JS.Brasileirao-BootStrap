@@ -1,0 +1,331 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.top-nav {
+    background-color: white;
+}
+.green-nav {
+    background-color: #06AA48;
+    color: white;
+    position: relative;
+}
+.team-logo {
+    max-height: 30px;
+    max-width: 30px;
+}
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+}
+.green-nav h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.green-nav .btn,
+.green-nav form {
+    z-index: 1;
+}
+.green-nav:hover{
+    color: beige;
+}
+.nav-item .nav-link {
+position: relative;
+}
+
+.nav-item .nav-link::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: currentColor;
+transition: width 0.3s ease;
+}
+
+.nav-item .nav-link:hover::after {
+width: 100%;
+}
+
+
+.top-nav .text-decoration-none:hover {
+color: #0077bb !important;
+transition: color 0.3s ease;
+}
+
+.margin-reversa-ge{
+margin-right: 1000px;
+}
+
+.margin-brasileirao{
+align-content: center;
+}
+
+.subir-nav-principal-green-que-e-verde-em-ingles-8-pixels-para-cima-feito-por-juan-figueiredo-martins-e-corrigido-por-professor-uriel{
+margin-top: -8px;
+}
+
+.font-ge{
+font-size: 118%;
+margin-top: 5px;
+width: 20px;
+height: 20px;
+color: white;
+
+
+}
+
+.flex{
+display: flex;
+}
+
+.test{
+margin-left: 10px;
+}
+
+.margin-right{
+margin-right: 10px;
+}
+
+.mosaico_wrapper {
+position: relative;
+display: inline-block;
+cursor: pointer;
+}
+
+.icons-escudo-header {
+text-align: center;
+color: white;
+padding: 10px;
+border-radius: 8px;
+background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-shield" viewBox="0 0 16 16"><path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/></svg>');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 24px;
+margin: 7px;
+width: 30px;
+height: 30px;
+}
+
+
+.mosaico__header-personalization--times-label {
+font-size: 16px;
+font-weight: bold;
+
+}
+
+.none-teste{
+display: none;
+}
+
+.mosaico__header-personalization--seta {
+width: 0;
+height: 0;
+margin: 5px auto 0;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+}
+
+.mosaico {
+display: none;
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+background-color: white;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+width: 300px;
+padding: 10px;
+z-index: 100;
+}
+
+.mosaico-itens {
+    float: left;
+    display: block;
+}
+
+.header-personalization .mosaico__equipes {
+display: none;
+padding: 3.25em 16px 6px;
+position: absolute;
+flex-wrap: wrap;
+justify-content: flex-start;
+background-color: #fff;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-top: 0;
+box-shadow: 0 -1px 5px 3px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.mosaico__tabs {
+    display: none;
+}
+
+.mosaico__equipe-nome {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+.mosaico__equipes-items a {
+    text-decoration: none;
+    display: block;
+}
+
+.mosaico_escudo--img {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mosaico_wrapper:hover .mosaico {
+    display: block;
+}
+
+.mosaico__escudo {
+    display: block;
+    height: 35px;
+    font-family: ProximaNova, Arial;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 35px;
+    white-space: nowrap;
+}
+
+.custom-btn {
+    background-color: #06AA48;
+    border-color: #06AA48;
+}
+
+.custom-btn:hover {
+    background-color: #06AA48;
+    border-color: #06AA48;
+}
+
+@media (max-width: 154px) {
+.apagar {
+display: none;
+}
+
+.apagar-buscar {
+display: none;
+}
+
+.apagar-assine-globo {
+display: none;
+}
+
+.apagar-escudo-mosaico {
+display: none;
+}
+
+.font-brasileirao {
+font-size: 17px;
+font-weight: bold;
+}
+}
+
+@media (min-width: 155px) and (max-width: 353px) {
+.apagar {
+display: none;
+}
+
+.apagar-buscar {
+display: none;
+}
+
+.apagar-assine-globo {
+display: none;
+}
+
+.apagar-escudo-mosaico {
+display: none;
+}
+
+.font-brasileirao {
+font-size: 19px;
+font-weight: bold;
+}
+}
+
+@media (min-width: 354px) and (max-width: 576px) {
+.apagar {
+display: none;
+}
+
+.apagar-buscar {
+display: none;
+}
+
+.apagar-assine-globo {
+display: none;
+}
+
+.apagar-escudo-mosaico {
+display: none;
+}
+
+.font-brasileirao {
+font-size: 22px;
+font-weight: bold;
+}
+}
+
+@media (min-width: 577px) and (max-width: 850px) {
+.apagar {
+display: none;
+}
+
+.navbar {
+display: flex;
+flex-direction: column;
+align-items: center; 
+gap: 10px; 
+width: 100%;
+}
+
+.apagar-assine-globo {
+display: none;
+}
+
+.font-brasileirao {
+font-size: 26px;
+}
+}
+
+@media (max-width: 985px) {
+.apagar-buscar {
+display: none;
+}
+
+.apagar {
+display: none;
+}
+
+.font-brasileirao {
+font-size: 30px;
+font-weight: bold;
+}
+
+}
+
+@media (min-width: 1025px) {
+.font-brasileirao {
+font-size: 33px;
+font-weight: bold;
+}
+}
+
+
